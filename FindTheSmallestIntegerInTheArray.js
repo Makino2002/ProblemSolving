@@ -14,13 +14,3 @@ class SmallestIntegerFinder1 {
     return Math.min(...args);
   }
 }
-
-function noSpace(x) {
-  result = "";
-  for (let i = 0; i < x.length; i++) {
-    if (x[i] !== " ") {
-      result += x[i];
-    }
-  }
-  return result;
-}
